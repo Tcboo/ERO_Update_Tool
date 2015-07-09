@@ -64,4 +64,4 @@ with open(js, "r+")as js_update:
 js_update.close()
 
 shutil.copy(js,r"C:\Users\shylander\Desktop\ICE\app\eroRP-master\data\posts.js")
-del j
+del js
