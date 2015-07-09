@@ -54,7 +54,7 @@ for feature in geoj:
 
 geoj.save(r"C:\Users\shylander\Desktop\ICE\app\ICE_Data\posts.geojson")
 
-js=r"C:\Users\shylander\Desktop\ICE\app\ICE_Data\posts.js"
+js=r"C:\Users\shylander\Desktop\ICE\app\ICE_Data\posts_Buffer.js"
 geoj.save(js)
 
 with open(js, "r+")as js_update:
@@ -64,3 +64,4 @@ with open(js, "r+")as js_update:
 js_update.close()
 
 shutil.copy(js,r"C:\Users\shylander\Desktop\ICE\app\eroRP-master\data\posts.js")
+del js
