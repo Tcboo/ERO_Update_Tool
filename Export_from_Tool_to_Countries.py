@@ -49,7 +49,7 @@ for item in out_list_tab:
     for key in item:
         if key == "Country":
             pass
-        elif key=="Tab1" or key =="Tab13":
+        elif key=="Tab1" or key =="Tab2":
             item[key]= float(item[key])
         else:
             item[key] = int(item[key])
