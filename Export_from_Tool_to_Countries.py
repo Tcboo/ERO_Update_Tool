@@ -192,5 +192,5 @@ js_update.close()
 
 #overwrite existing
 shutil.copy(js,r"C:\Users\shylander\Desktop\ICE\app\eroRP-master\data\Countries.js")
-
+del js
 
